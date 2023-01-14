@@ -1,0 +1,54 @@
+$color-text1:rgb(0, 0, 0);
+$color-text2:rgb(255, 255, 255);
+$color-text3:rgba(204, 207, 204, 0.582);
+$color-text4:rgb(236, 245, 120);
+$color-text5:rgb(80, 162, 255);
+$color-text6:rgb(250, 139, 241);
+
+
+
+@mixin img($var){
+    background-image: url(../img/project-#{$var}.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    &:hover{
+        transition: 3s;
+        background-size: 120%;
+        filter: grayscale(0);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.897),url(../img/project-#{$var}.jpg));
+        cursor: pointer;
+       
+       
+        
+    }
+
+    
+}
+
+@mixin cards(){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+
+    
+
+  
+    
+  
+}
+
+footer{
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
