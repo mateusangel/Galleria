@@ -14,6 +14,8 @@ $color-text6:rgb(250, 139, 241);
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(100%);
+
+    border-radius: 5px;
     &:hover{
         transition: 3s;
         background-size: 120%;
@@ -36,6 +38,8 @@ $color-text6:rgb(250, 139, 241);
     justify-content: center;
     margin-top: 40px;
     text-align: center;
+
+  
 
     
 

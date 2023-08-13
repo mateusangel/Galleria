@@ -19,11 +19,13 @@ body {
 
 section .card1 {
   background-image: url(../img/project-1.jpg);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+  border-radius: 5px;
   width: 300px;
   height: 350px;
 }
@@ -36,11 +38,13 @@ section .card1:hover {
 }
 section .card2 {
   background-image: url(../img/project-2.jpg);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+  border-radius: 5px;
   width: 300px;
   height: 350px;
 }
@@ -53,11 +57,13 @@ section .card2:hover {
 }
 section .card3 {
   background-image: url(../img/project-3.jpg);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+  border-radius: 5px;
   width: 300px;
   height: 350px;
 }
@@ -70,11 +76,13 @@ section .card3:hover {
 }
 section .card4 {
   background-image: url(../img/project-4.jpg);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+  border-radius: 5px;
   width: 300px;
   height: 350px;
 }
@@ -87,11 +95,13 @@ section .card4:hover {
 }
 section .card5 {
   background-image: url(../img/project-5.jpg);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+  border-radius: 5px;
   width: 300px;
   height: 350px;
 }
@@ -104,11 +114,13 @@ section .card5:hover {
 }
 section .card6 {
   background-image: url(../img/project-6.jpg);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+  border-radius: 5px;
   width: 300px;
   height: 350px;
 }
@@ -121,11 +133,13 @@ section .card6:hover {
 }
 section .card7 {
   background-image: url(../img/project-7.jpg);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+  border-radius: 5px;
   width: 300px;
   height: 350px;
 }
@@ -138,11 +152,13 @@ section .card7:hover {
 }
 section .card8 {
   background-image: url(../img/project-8.jpg);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+  border-radius: 5px;
   width: 300px;
   height: 350px;
 }
@@ -155,11 +171,13 @@ section .card8:hover {
 }
 section .card9 {
   background-image: url(../img/project-9.jpg);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+  border-radius: 5px;
   width: 300px;
   height: 350px;
 }
